@@ -16,15 +16,18 @@ The full list of query params that get stripped out of URLs are (for now):
 - utm_content
 - utm_name
 - utm_id
+- si
+- \_\_tn\_\_
+- \_\_cft\_\_[0]
 
---- 
+---
 
 ### Firefox installation
 Available on addons.mozilla.org as of August 2019.
 
 https://addons.mozilla.org/en-US/firefox/addon/remove-fbclid-and-utm/
 
---- 
+---
 ### Chrome / Chromium / Brave installation
 1. Menu -> "More Tools" -> Extensions menu
 2. Toggle Developer mode on
@@ -37,4 +40,6 @@ Going to look into getting this on the Chrome store soon.
 ---
 ### TODOs
 1. Add utm_referrer, ?ref, ?ref_url, ?ref_src
-2. Add functionality to remove the FBclid from copying URLs via "Copy Link Location" (right-click menu). 
+- Update - Maybe...these are all pretty fringe and not even requsted by users.
+2. Add functionality to remove the FBclid from copying URLs via "Copy Link Location" (right-click menu).
+- Update - I think Firefox is already doing this automatically now in their right click menu.
