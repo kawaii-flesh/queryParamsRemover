@@ -25,7 +25,7 @@ The full list of query params that get stripped out of URLs are (for now):
 ### Firefox installation
 Available on addons.mozilla.org as of August 2019.
 
-https://addons.mozilla.org/en-US/firefox/addon/remove-fbclid-and-utm/
+https://addons.mozilla.org/en-US/firefox/addon/query-params-remover/
 
 ---
 ### Chrome / Chromium / Brave installation
